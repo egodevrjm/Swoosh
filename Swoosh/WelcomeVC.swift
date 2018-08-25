@@ -10,15 +10,16 @@ import UIKit
 
 class WelcomeVC: UIViewController {
 
-    //MARK: IMAGE OUTLETS
-    @IBOutlet weak var logoImage: UIImageView!
-    @IBOutlet weak var bgImage: UIImageView!
+    //MARK: VARIABLES
     
     //MARK: SYSTEM
     override func viewDidLoad() {
         super.viewDidLoad()
         
     }
+    
+    
+    //MARK: ACTIONS
     
     @IBAction func unwindFromSkillCV(unwindSegue: UIStoryboardSegue) {
         
