@@ -10,11 +10,16 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    //MARK: IMAGE OUTLETS
+    @IBOutlet weak var logoImage: UIImageView!
+    @IBOutlet weak var bgImage: UIImageView!
+    
+    //MARK: SYSTEM
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
     }
-
+    
 
 }
 
